@@ -1,0 +1,48 @@
+body {
+  background: black;
+  background-image: url("https://bit.ly/3L502lU");
+}
+div#login {
+  background: linear-gradient("red", "orange");
+}
+h3 {
+  color: red;
+  text-align: center;
+  margin-top: 150;
+}
+
+p#content {
+  display: none;
+}
+input {
+  border-radius: 5px;
+  width: 300;
+  height: 30;
+  border: 0;
+  align-items: center;
+  background-color: white;
+}
+
+input#name {
+  margin-top: 250;
+}
+input::placeholder {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+input:focus {
+  background-color: beige;
+}
+button {
+  border-radius: 5px;
+  height: 30;
+  width: 100;
+  border: 0;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+button:focus {
+  background-color: beige;
+}
